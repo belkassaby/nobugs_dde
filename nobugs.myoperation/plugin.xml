@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.dawnsci.analysis.api.operation">
+      <operation
+            class="nobugs.myoperation.MyOperation"
+            description="A custom operation"
+            id="nobugs.myoperation.operation"
+            model="nobugs.myoperation.MyOperationModel"
+            name="My New Operation"
+            visible="true">
+      </operation>
+   </extension>
+</plugin>

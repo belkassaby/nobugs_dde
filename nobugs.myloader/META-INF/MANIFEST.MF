@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Loader
+Bundle-SymbolicName: nobugs.myloader;singleton:=true
+Bundle-Vendor: NOBUGS
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.january,
+ org.eclipse.dawnsci.analysis.api,
+ uk.ac.diamond.scisoft.analysis,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
